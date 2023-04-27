@@ -1,0 +1,4 @@
+a) if (a > b) c = 0;
+b) if (a > b) {c = 0;}
+c)if (a > b) c = 0;
+d)if (a > b) c = 0; else b = 0;
