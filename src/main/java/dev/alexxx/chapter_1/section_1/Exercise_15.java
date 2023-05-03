@@ -15,8 +15,8 @@ public class Exercise_15 {
 
     private static int[] histogram(int[] a, int m) {
         int[] hist = new int[m];
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] < m) hist[a[i]]++;
+        for (int j : a) {
+            if (j < m) hist[j]++;
         }
         return hist;
     }
