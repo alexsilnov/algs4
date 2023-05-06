@@ -2,8 +2,6 @@ package dev.alexxx.chapter_1.section_1;
 
 import edu.princeton.cs.algs4.StdOut;
 
-import java.util.Arrays;
-
 public class Exercise_11 {
     private static char boolToAsterisk(boolean bool) {
         return bool ? '*' : 'O';

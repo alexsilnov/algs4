@@ -1,12 +1,8 @@
 package dev.alexxx.chapter_1.section_1;
 
 
-import org.apache.commons.lang3.tuple.ImmutableTriple;
-import org.apache.commons.lang3.tuple.Triple;
-
-import java.io.InputStream;
-import java.io.PrintStream;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Random;
 
 public class Exercise_22 {
     private static int BOUND = 100;

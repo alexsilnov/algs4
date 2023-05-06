@@ -1,6 +1,5 @@
 package dev.alexxx.chapter_1.section_1;
 
-import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 public class Exercise_6 {
@@ -14,4 +13,3 @@ public class Exercise_6 {
         }
     }
 }
-

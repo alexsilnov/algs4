@@ -1,10 +1,5 @@
 package dev.alexxx.chapter_1.section_1;
 
-import edu.princeton.cs.algs4.StdOut;
-
-import java.util.Arrays;
-import java.util.Random;
-
 public class Exercise_14 {
 
     public static void main(String[] args) {
