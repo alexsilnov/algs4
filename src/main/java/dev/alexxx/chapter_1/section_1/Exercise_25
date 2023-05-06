@@ -1,0 +1,10 @@
+a > b
+a = b * q1  + r1;
+Пусть gcd(a, b) = gcd(b, r1)
+Тогда b = r1 * q2 + r2
+b = t * y; r1 = t * e
+    ->
+    r2 = b - r1 * q2 = t * y - t * e * q2 = t * (y - e * q2)
+        ->
+        gcd(b, r1) = gcd(r1, r2)
+            -> gcd(a, b) = gcd(rn-1, rn) = gcd(rn, 0); т.к. rn-1 mod rn = 0
