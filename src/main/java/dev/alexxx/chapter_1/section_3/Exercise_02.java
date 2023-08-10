@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.Stack;
 
 import java.io.IOException;
 
-public class Exercise_2 {
+public class Exercise_02 {
 
     public static void main(String[] args) throws IOException {
         Stack.main(new String[]{});

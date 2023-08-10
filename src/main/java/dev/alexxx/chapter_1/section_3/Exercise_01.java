@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdIn;
 
 import java.util.Arrays;
 
-public class Exercise_1 {
+public class Exercise_01 {
 
     public static void main(String[] args) {
         FixedCapacityStackOfStrings stackOfStrings = new FixedCapacityStackOfStrings(5);

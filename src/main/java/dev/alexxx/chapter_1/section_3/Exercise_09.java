@@ -4,7 +4,7 @@ package dev.alexxx.chapter_1.section_3;
 import edu.princeton.cs.algs4.Stack;
 import edu.princeton.cs.algs4.StdIn;
 
-public class Exercise_9 {
+public class Exercise_09 {
     public static void main(String[] args) {
         Stack<String> values = new Stack<>();
         Stack<String> operation = new Stack<>();
