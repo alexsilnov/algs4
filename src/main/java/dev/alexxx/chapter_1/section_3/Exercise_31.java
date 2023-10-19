@@ -10,16 +10,8 @@ public class Exercise_31 {
         System.out.println(stringQueue);
         while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
-            stringQueue.removeTail();
             stringQueue.addTail(item);
-            stringQueue.addHead(item);
-            stringQueue.addTail(item);
-            stringQueue.addHead(item);
-            stringQueue.removeHead();
-            stringQueue.removeTail();
-            System.out.println(stringQueue);
         }
+        System.out.println(stringQueue);
     }
-
-
 }

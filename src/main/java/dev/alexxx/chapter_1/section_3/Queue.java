@@ -4,10 +4,11 @@ import com.github.freva.asciitable.AsciiTable;
 import com.github.freva.asciitable.Column;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Optional;
 
-public class Queue<T> {
+public final class Queue<T> implements Iterable<T> {
     private Node tail;
     private Node head;
     private int size;
@@ -116,5 +117,26 @@ public class Queue<T> {
     public String toString() {
         var columns = aslist().stream().map(node -> new Column().header(node.toString()).with(n -> "")).toList();
         return AsciiTable.getTable(List.of(), columns);
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new Iterator<>() {
+            private Node itrNode = head;
+            private int itrSize = size;
+
+            @Override
+            public boolean hasNext() {
+                return itrSize != 0;
+            }
+
+            @Override
+            public T next() {
+                var value = itrNode.item;
+                itrNode = itrNode.next;
+                itrSize--;
+                return value;
+            }
+        };
     }
 }
